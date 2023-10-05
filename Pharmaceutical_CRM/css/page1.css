@@ -1,0 +1,57 @@
+
+body {
+    background: #F2F2F2;
+}
+
+.crm-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 400px;
+}
+
+.crm-table th,
+.crm-table td {
+    padding: 10px;
+    border: 1px solid black;
+    text-align: left;
+}
+
+
+.crm-table th {
+    background-color: #3b3a30;
+    color: #fff;
+}
+
+
+.action-button {
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.action-button i {
+    font-size: 15px;
+}
+
+.view-button {
+    color: black;
+}
+
+.edit-button {
+    color: black;
+}
+
+.delete-button {
+    color: black;
+}
+
+
+@media screen and (max-width: 600px) {
+    .crm-table th,
+    .crm-table td {
+        font-size: 14px;
+    }
+}
