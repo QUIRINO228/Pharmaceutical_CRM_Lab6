@@ -1,0 +1,428 @@
+body {
+    background: #F2F2F2;
+}
+.error {
+    color: red;
+    margin-top: 4px;
+    display: none;
+}
+
+.visibility:hover{
+    color: #ffffff;
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center !important;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.login_block {
+    height: 1250px;
+}
+
+.login_form {
+    background-color: #d5e1df;
+    margin: 100px auto 0 auto;
+    height: 1175px;
+    width: 490px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.input_date::-webkit-input-placeholder {
+    content: 'Date of birth';
+}
+
+
+.login_title {
+    color: #3b3a30;
+}
+
+.input_container {
+    margin: 38px auto;
+    display: flex;
+}
+
+.material-symbols-outlined {
+    padding-top: 7px;
+    color: #3b3a30;
+}
+
+.img_logo {
+    height: 120px;
+}
+
+.input {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    width: 400px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid;
+    color: #3b3a30;
+}
+
+.custom-file input[type="file"] {
+    position: absolute !important;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+.input_value {
+    background: #c5d5c5;
+    border: 2px solid black;
+}
+
+
+input[type="file"] {
+    display: none;
+}
+
+.custom-file {
+    background: none !important;
+}
+
+.custom-file-label {
+    margin-top: -10px;
+    margin-left: 10px;
+    width: 400px;
+    font-size: 20px;
+    text-align: left;
+    border-radius: 0 !important;
+    border: none !important;
+    border-bottom: 2px solid #3b3a30 !important;
+    background-color: #d5e1df !important;
+    color: #3b3a30 !important;
+    display: inline-block;
+}
+
+.custom-file-label:after {
+    content: "" !important;
+    background: none !important;
+}
+
+.form-select {
+    border-radius: 0 !important;
+}
+
+.input_file {
+    color: #3b3a30;
+    background: none;
+}
+
+input:focus, .input:focus::placeholder {
+    color: #3b3a30;
+    outline: none;
+}
+
+.input::placeholder {
+    color: #3b3a30;
+}
+
+.input_file {
+    display: flex;
+    position: relative;
+}
+
+.visibility {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    transform: translateY(-50%);
+    transition: color .3s linear;
+}
+
+.singup_btn {
+    padding: 7px 30px;
+    color: #ffffff;
+    font-size: 30px;
+    background: #3b3a30;
+    border: none;
+    border-radius: 10px;
+    transition: color .2s linear;
+}
+
+.singup_btn:hover {
+    background-color: #b2c2bf;
+    color: #151515;
+}
+
+@media (max-width: 390px) {
+    #matchedPassError{
+        margin: -25px 0 0 55px !important;
+    }
+
+    #firstNameError{
+        margin: -25px 0 0 95px !important;
+    }
+
+    #secondNameError{
+        margin: -25px 0 0 65px !important;
+    }
+
+    #surnameError{
+        margin: -25px 0 0 85px !important;
+    }
+
+    #emailError{
+        margin: -25px 0 0 95px !important;
+    }
+
+    #passwordError{
+        margin: -25px 0 0 0 !important;
+    }
+
+    #birthdayError{
+        margin: -25px 0 0 85px !important;
+    }
+
+    th, td{
+        display: block;
+
+    }
+
+    .table_title {
+        font-size: 30px !important;
+        padding-left: 20px;
+
+    }
+
+    .input_container label1 {
+        margin: 0 15px 0 10px !important;
+    }
+
+    .visibility {
+        top: 50%;
+        right: -25px;
+    }
+
+    .login_block {
+        height: 1015px;
+    }
+
+    .login_form {
+        margin: 50px auto 0 auto;
+        width: 300px;
+        height: 975px;
+    }
+
+    .img_logo {
+        height: 80px !important;
+    }
+
+    .login_title h1 {
+        font-size: 30px;
+    }
+
+    .input_file {
+        width: 250px;
+        margin-bottom: 10px;
+    }
+
+    .input_file i {
+        padding-left: 120px;
+        width: 215px;
+    }
+
+    .custom-file-label {
+        width: 230px;
+    }
+
+    .form-select .input {
+        width: 230px !important;
+        padding-right: 0 !important;
+        box-sizing: content-box;
+    }
+
+    .form-select {
+        width: 230px !important;
+    }
+
+    .log_form {
+        margin: 20px auto;
+
+    }
+
+    .login_form .input_container {
+        margin: 20px auto;
+    }
+
+    .sup_title_container {
+        margin-top: 10px !important;
+        text-align: left;
+        font-size: 16px !important;
+        display: block !important;
+    }
+
+    .check_box {
+        margin-top: -10px !important;
+    }
+
+    .forgot_pass {
+        margin: 10px auto !important;
+    }
+
+    .singup_btn {
+        margin: 10px auto -10px auto;
+        padding: 5px 25px;
+        font-size: 20px;
+    }
+
+    .singUp_container {
+        font-size: 15px !important;
+    }
+}
+
+.sup_title_container {
+    margin-top: -30px;
+    margin-left: 35px;
+    font-size: 17px;
+    display: flex;
+    color: #3b3a30;
+}
+
+.forgot_pass {
+    margin-left: 125px;
+}
+
+.forgot_pass a {
+    font-weight: 700;
+    text-decoration: none;
+    color: #3b3a30;
+}
+
+.forgot_pass a:hover {
+    color: #b2c2bf;
+}
+
+.singUp_container {
+    margin: 10px auto;
+    display: flex;
+    font-size: 17px;
+    justify-content: center;
+    color: #3b3a30;
+}
+
+.singUp {
+    text-decoration: none;
+    color: #3b3a30;
+    font-weight: 700;
+    transition: color .25s linear;
+}
+
+.singUp:hover {
+    color: #b2c2bf;
+}
+
+.input_container label1 {
+    display: flex;
+    align-items: center;
+    margin-right: 72px;
+    margin-left: 23px;
+    color: #3b3a30;
+
+}
+
+.input_container input[type="radio"] {
+    margin-right: 5px;
+    transform: scale(1.3);
+}
+
+.input_container label::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    border: 2px solid #3b3a30;
+    border-radius: 50%;
+    position: absolute;
+    left: -30px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+
+.error-message {
+    display: none;
+    position: absolute;
+    color: #ff0000;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.input_container {
+    position: relative;
+}
+
+
+.error-message {
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+#matchedPassError{
+    position: absolute;
+    margin: -35px 0 0 145px;
+}
+
+#firstNameError{
+    position: absolute;
+    margin: -35px 0 0 175px;
+}
+
+#secondNameError{
+    position: absolute;
+    margin: -35px 0 0 150px;
+}
+
+#surnameError{
+    position: absolute;
+    margin: -35px 0 0 170px;
+}
+
+#emailError{
+    position: absolute;
+    margin: -35px 0 0 190px;
+}
+
+#passwordError{
+    position: absolute;
+    margin: -35px 0 0 95px;
+}
+
+#birthdayError{
+    position: absolute;
+    margin: -35px 0 0 180px;
+}
+
+#delete,
+#double {
+    background-color: #3b3a30;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#delete:hover,
+#double:hover {
+    background-color: #b2c2bf;
+}
